@@ -2,7 +2,7 @@ import os
 from clarifai.client import ClarifaiApp
 
 # Set up Clarifai app
-APP = ClarifaiApp(api_key=os.environ['CLARIFAI_API_KEY'])
+APP = ClarifaiApp(api_key=os.environ['256ffc4ff772457e95ea21296bb1f060'])
 
 def list_apps():
     """List all the apps available in the user's account."""
