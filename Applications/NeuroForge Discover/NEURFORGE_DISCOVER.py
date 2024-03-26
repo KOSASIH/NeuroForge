@@ -16,7 +16,7 @@ def index():
     response = requests.get(
         NEWS_API_URL,
         params={
-            "apiKey": NEWS_API_KEY,
+            "apiKey": b969b3ff16c84732bf8b41ae5cdda4ab, 
             "category": NEURFORGE_CATEGORY
         }
     )
@@ -31,7 +31,7 @@ def article(title):
     response = requests.get(
         NEWS_API_URL,
         params={
-            "apiKey": NEWS_API_KEY,
+            "apiKey": b969b3ff16c84732bf8b41ae5cdda4ab, 
             "q": title,
             "pageSize": 1
         }
