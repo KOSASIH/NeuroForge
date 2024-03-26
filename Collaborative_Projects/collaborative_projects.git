@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd Collaborative_Projects/
+
+# Initialize Git repository
+git init
+
+# Configure user information
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+
+# Create a .gitignore file to ignore temporary files and other unnecessary files
+touch .gitignore
