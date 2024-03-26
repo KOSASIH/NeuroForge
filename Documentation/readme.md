@@ -12,7 +12,7 @@ Pushing the boundaries of neural engineering for Pi Network, NeuroForge provides
 
 ## Getting Started
 
-To get started with NeuroForge, here are some first steps to help you get up and running.
+To get started with NeuroForge, here are some [first steps to help you get up and running](Documentation/getting_started.md) 
 
 ### Prerequisites
 
