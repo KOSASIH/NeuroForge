@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NeuroForge Create</title>
+</head>
+<body>
+    <form action="{{ url_for('create_network') }}" method="POST">
+        <label for="architecture">Choose a network architecture:</label>
+        <select name="architecture" id="architecture">
+            <option value="feedforward">Feedforward</option>
+            <option value="recurrent">Recurrent</option>
+            <option value="convolutional">Convolutional</option>
+        </select><br>
+
+        <label for="activation_function">Choose an activation function:</label>
+        <select name="activation_function" id="activation_function">
+            <option value="sigmoid">Sigmoid</option>
+            <option value="tanh">Tanh</option>
+            <option value="relu">ReLU</option>
+        </select><br>
+
+        <label for="learning_rate">Enter a learning rate:</label>
+        <input type="number" step="0.001" name="learning_rate" id="learning_rate" value="0.01"><br>
+
+        <button type="submit">Create Network</button>
+    </form>
+</body>
+</html>
