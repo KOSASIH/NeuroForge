@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Configure remote repository
+git remote add origin <remote_repository_url>
+
+# Push changes to remote repository
+git push -u origin master
