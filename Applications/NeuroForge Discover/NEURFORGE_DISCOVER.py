@@ -7,7 +7,7 @@ app = Flask(__name__)
 NEWS_API_URL = "https://newsapi.org/v2/top-headlines"
 
 # Define API parameters
-NEWS_API_KEY = "YOUR_API_KEY_HERE"
+NEWS_API_KEY = "b969b3ff16c84732bf8b41ae5cdda4ab"
 NEURFORGE_CATEGORY = "NeuroForge"
 
 @app.route("/")
