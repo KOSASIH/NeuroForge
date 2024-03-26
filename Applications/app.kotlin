@@ -1,0 +1,36 @@
+@Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+    Surface(color = Color.Green) {
+        Text(
+            text = "Hello $name!",
+            modifier = modifier.padding(24.dp)
+        )
+    }
+}
+
+@Preview
+@Composable
+fun GreetingPreview() {
+    GreetingCardTheme {
+        Greeting("Meghan")
+   }
+}
+
+@Composable
+fun ApplicationMain() {
+    MaterialTheme {
+        Surface(color = Color.Yellow) {
+            Column {
+                Greeting("Alice")
+                Greeting("Bob")
+                Greeting("Charlie")
+            }
+        }
+    }
+}
+
+@Preview
+@Composable
+fun ApplicationPreview() {
+    ApplicationMain()
+}
